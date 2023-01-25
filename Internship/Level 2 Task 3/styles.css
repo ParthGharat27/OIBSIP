@@ -1,0 +1,89 @@
+h1{
+  text-align: center;
+  margin-top: 3%;
+  color: white;
+  
+}
+
+body{
+  background-image: linear-gradient(to top,#000428,#004e92);
+  font-family: "Poppins",sans-serif;
+  min-height: 100vh;
+  font-size: 2rem;
+}
+
+.input-container{
+  margin-left: 150px;
+  width: 500px;
+  height: 00px;
+  
+}
+
+input {
+  border: solid black 2px;
+  border-radius: 20px;
+  height: 60px;
+  width: 400px;
+  justify-content: center;
+  margin-left: 120%;
+  font-size:1.8rem;
+  }
+
+  .td-button{
+    border: solid black 2px;
+    border-radius: 20px;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    margin-left: 200%;
+    margin-top: -60px;
+    cursor: pointer;
+  } 
+
+  i{
+  font-size: 50px;
+  }
+
+  h2{
+    text-align: center;
+    padding: 40px;
+    color: white;
+  }
+
+  ul{
+    list-style: none;
+    counter-reset: my-counter;
+
+  }
+  ul li{
+    width: 25%;
+    height: 35px;
+    padding: 18px;
+    margin-left: 680px;
+    background: white;
+    font-size: 22px;
+    border: solid black 2px;
+    border-radius: 20px;
+    counter-increment: my-counter;;
+  }
+  ul.rem li{
+    color: white;
+    font-size: 1.8rem;
+    background: #dd4444;
+  }
+  ul.comp li{
+    background: #0ec46f;
+    color: white;
+    font-size: 1.8rem;
+  }
+  li button{
+    float: right;
+    margin-top: -10px;
+    border: solid black 2px;
+    border-radius: 20px;
+  }
+
+  ol li::before{
+    content: counter(my-counter);
+    display: inline-block;
+  }
